@@ -1,25 +1,25 @@
-#This cheat sheet includes commonly used Git and GitHub commands to help you manage and work with repositories effectively.</p>
+# This cheat sheet includes commonly used Git and GitHub commands to help you manage and work with repositories effectively.</p>
 
 ## 1. Set Up and Configure Git</h2>
 
-# Set username
+### Set username
 
 <pre><code>git config --global user.name "Your Name"</code></pre>
 
-# Set email
+### Set email
 
 <pre><code>git config --global user.email "youremail@example.com"</code></pre>
 
-# Check configuration
+### Check configuration
 
 <pre><code>git config --list</code></pre>
 
-#2. Create and Manage Repositories
+## 2. Create and Manage Repositories
 
-# Initialize a new repository
+### Initialize a new repository
 git init
 
-# Clone a repository from GitHub
+### Clone a repository from GitHub
 git clone https://github.com/user/repository.git
         </code></pre>
     </div>
