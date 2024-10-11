@@ -90,7 +90,8 @@
 
     <div class="section">
         <h2>1. Set Up and Configure Git</h2>
-        <pre><code># Set username
+        <pre><code>
+# Set username
 git config --global user.name "Your Name"
 
 # Set email
