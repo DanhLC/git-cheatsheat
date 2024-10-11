@@ -92,7 +92,7 @@
         <h2>1. Set Up and Configure Git</h2>
         <pre><code>
 # Set username
->git config --global user.name "Your Name"
+<pre><code>git config --global user.name "Your Name"
 
 # Set email
 git config --global user.email "youremail@example.com"
