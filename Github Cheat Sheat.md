@@ -1,111 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Git and GitHub Cheat Sheet">
-    <title>Git and GitHub Cheat Sheet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
+#This cheat sheet includes commonly used Git and GitHub commands to help you manage and work with repositories effectively.</p>
 
-        h1, h2 {
-            color: #333;
-        }
+##1. Set Up and Configure Git</h2>
 
-        h1 {
-            font-size: 2.5em;
-        }
-
-        h2 {
-            font-size: 1.8em;
-            margin-top: 20px;
-        }
-
-        pre {
-            background-color: #f4f4f4;
-            border-left: 5px solid #333;
-            padding: 10px;
-            font-size: 1em;
-            overflow-x: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
-
-        code {
-            font-family: "Courier New", Courier, monospace;
-            color: #333;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section:nth-child(even) {
-            background-color: #e9ecef;
-            padding: 20px;
-        }
-
-        hr {
-            margin: 30px 0;
-            border: none;
-            border-bottom: 2px solid #ccc;
-        }
-
-        .note {
-            background-color: #fff3cd;
-            padding: 15px;
-            border-left: 5px solid #856404;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        ul li {
-            line-height: 1.6;
-        }
-
-        footer {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Git and GitHub Cheat Sheet</h1>
-
-    <div class="note">
-        <p>This cheat sheet includes commonly used Git and GitHub commands to help you manage and work with repositories effectively.</p>
-    </div>
-
-    <hr>
-
-    <div class="section">
-        <h2>1. Set Up and Configure Git</h2>
-        <pre><code>
 # Set username
 
 <pre><code>git config --global user.name "Your Name"</code></pre>
 
 # Set email
-git config --global user.email "youremail@example.com"
+
+<pre><code>git config --global user.email "youremail@example.com"</code></pre>
 
 # Check configuration
-git config --list
-        </code></pre>
-    </div>
 
-    <div class="section">
-        <h2>2. Create and Manage Repositories</h2>
-        <pre><code># Initialize a new repository
+<pre><code>git config --list</code></pre>
+
+#2. Create and Manage Repositories
+
+# Initialize a new repository
 git init
 
 # Clone a repository from GitHub
