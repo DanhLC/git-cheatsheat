@@ -217,5 +217,5 @@ git diff
 ### View differences between staged changes and the last commit
 git diff --staged
 
-Created by DanhLC - This Git and GitHub Cheat Sheet provides a quick reference to essential commands.
+Created by *DanhLC* - This Git and GitHub Cheat Sheet provides a quick reference to essential commands.
 For more advanced usage, refer to the https://git-scm.com/doc Git documentation
