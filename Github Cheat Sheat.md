@@ -4,86 +4,126 @@
 
 ### Set username
 
-<pre><code>git config --global user.name "Your Name"</code></pre>
+<pre><code>
+git config --global user.name "Your Name"
+</code></pre>
 
 ### Set email
 
-<pre><code>git config --global user.email "youremail@example.com"</code></pre>
+<pre><code>
+git config --global user.email "youremail@example.com"
+</code></pre>
 
 ### Check configuration
 
-<pre><code>git config --list</code></pre>
+<pre><code>
+git config --list
+</code></pre>
 
 ## 2. Create and Manage Repositories
 
 ### Initialize a new repository
+
+<pre><code>
 git init
+</code></pre>
 
 ### Clone a repository from GitHub
+
+<pre><code>
 git clone https://github.com/user/repository.git
-        </code></pre>
-    </div>
+</code></pre>
 
-    <div class="section">
-        <h2>3. Status and Information</h2>
-        <pre><code># Check the status of your repository
+## 3. Status and Information</h2>
+
+### Check the status of your repository        
+
+<pre><code>
 git status
+</code></pre>
 
-# View commit history
+### View commit history
+
+<pre><code>
 git log
+</code></pre>
 
-# View a short log history
+### View a short log history
+
+<pre><code>
 git log --oneline
-        </code></pre>
-    </div>
+</code></pre>
 
-    <div class="section">
-        <h2>4. Working with Files</h2>
-        <pre><code># Add new or modified files to staging area
+## 4. Working with Files</h2>
+
+### Add new or modified files to staging area
+
+<pre><code>
 git add <file>
+</code></pre>
 
-# Add all files to staging area
+### Add all files to staging area
+
+<pre><code>
 git add .
+</code></pre>
 
-# Remove a file from staging area
+### Remove a file from staging area
+
+<pre><code>
 git reset <file>
+</code></pre>
 
-# Delete a file from both working directory and staging area
+### Delete a file from both working directory and staging area
+
+<pre><code>
 git rm <file>
+</code></pre>
 
-# Move or rename a file
+### Move or rename a file
+
+<pre><code>
 git mv <old_filename> <new_filename>
-        </code></pre>
-    </div>
+</code></pre>
 
-    <div class="section">
-        <h2>5. Commit Changes</h2>
-        <pre><code># Create a commit with a message
+## 5. Commit Changes</h2>
+
+### Create a commit with a message
+
+<pre><code>
 git commit -m "Commit message"
+</code></pre>
 
-# Commit and include unstaged changes
+### Commit and include unstaged changes
+
+<pre><code>
 git commit -a -m "Commit message"
-        </code></pre>
-    </div>
+</code></pre>
 
-    <div class="section">
-        <h2>6. Branching</h2>
-        <pre><code># Create a new branch
+## 6. Branching</h2>
+
+### Create a new branch
+
+<pre><code>
 git branch <branch_name>
+</code></pre>
 
-# List branches
+### List branches
+
+<pre><code>
 git branch
+</code></pre>
 
-# Switch branches
+### Switch branches
 git checkout <branch_name>
 
-# Create and switch to a new branch
+### Create and switch to a new branch
 git checkout -b <branch_name>
 
-# Merge a branch into the current branch
+### Merge a branch into the current branch
 git merge <branch_name>
 
-# Delete a branch
+### Delete a branch
 git branch -d <branch_name>
         </code></pre>
     </div>
@@ -93,19 +133,19 @@ git branch -d <branch_name>
         <pre><code># List remotes
 git remote -v
 
-# Add a new remote
+### Add a new remote
 git remote add origin https://github.com/user/repository.git
 
-# Remove a remote
+### Remove a remote
 git remote remove <remote_name>
 
-# Fetch changes from remote without merging
+### Fetch changes from remote without merging
 git fetch origin
 
-# Pull changes from remote and merge
+### Pull changes from remote and merge
 git pull origin <branch_name>
 
-# Push changes to remote
+### Push changes to remote
 git push origin <branch_name>
         </code></pre>
     </div>
@@ -115,10 +155,10 @@ git push origin <branch_name>
         <pre><code># Revert file to the last commit
 git checkout -- <file>
 
-# Undo the last commit but keep changes
+### Undo the last commit but keep changes
 git reset --soft HEAD~1
 
-# Undo the last commit and discard changes
+### Undo the last commit and discard changes
 git reset --hard HEAD~1
         </code></pre>
     </div>
@@ -128,13 +168,14 @@ git reset --hard HEAD~1
         <pre><code># Create a new tag
 git tag <tag_name>
 
-# List all tags
+### List all tags
 git tag
 
-# Delete a tag
+### Delete a tag
 git tag -d <tag_name>
 
-# Push tags to remote
+### Push tags to remote
+
 git push origin --tags
         </code></pre>
     </div>
@@ -144,44 +185,37 @@ git push origin --tags
         <pre><code># Rebase the current branch onto another branch
 git rebase <branch_name>
 
-# Abort a rebase
-git rebase --abort
-        </code></pre>
-    </div>
+### Abort a rebase
 
-    <div class="section">
-        <h2>11. Stashing</h2>
-        <pre><code># Stash current changes
+git rebase --abort
+
+## 11. Stashing</h2>
+
+### Stash current changes
+
 git stash
 
-# Apply the stashed changes
+### Apply the stashed changes
 git stash pop
 
-# List all stashes
+### List all stashes
 git stash list
 
-# Drop a stash
-git stash drop
-        </code></pre>
-    </div>
+### Drop a stash
 
-    <div class="section">
-        <h2>12. Other Useful Commands</h2>
-        <pre><code># View the change history of a file
+git stash drop
+
+## 12. Other Useful Commands</h2>
+
+### View the change history of a file
+
 git log -- <file>
 
-# View differences between unstaged changes
+### View differences between unstaged changes
 git diff
 
-# View differences between staged changes and the last commit
+### View differences between staged changes and the last commit
 git diff --staged
-        </code></pre>
-    </div>
 
-    <footer>
-        <p>Created by [Your Name] - This Git and GitHub Cheat Sheet provides a quick reference to essential commands.</p>
-        <p>For more advanced usage, refer to the <a href="https://git-scm.com/doc" target="_blank">Git documentation</a>.</p>
-    </footer>
-
-</body>
-</html>
+Created by DanhLC - This Git and GitHub Cheat Sheet provides a quick reference to essential commands.
+For more advanced usage, refer to the https://git-scm.com/doc Git documentation
