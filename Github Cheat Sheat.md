@@ -1,6 +1,6 @@
 #This cheat sheet includes commonly used Git and GitHub commands to help you manage and work with repositories effectively.</p>
 
-##1. Set Up and Configure Git</h2>
+## 1. Set Up and Configure Git</h2>
 
 # Set username
 
