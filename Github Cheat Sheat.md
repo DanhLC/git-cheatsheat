@@ -176,7 +176,7 @@ git pull origin <branch_name>
 git push origin <branch_name>
 </code></pre
 
-## 8. Undoing Changes</h2>
+## 8. Undoing Changes
 
 ### Revert file to the last commit
 
@@ -188,13 +188,13 @@ git checkout -- <file>
 
 <pre><code>
 git reset --soft HEAD~1
-</code></pre
+</code></pre>
 
 ### Undo the last commit and discard changes
 
 <pre><code>
 git reset --hard HEAD~1
-</code></pre
+</code></pre>
 
 ## 9. Tags
 
@@ -282,5 +282,5 @@ git diff
 git diff --staged
 </code></pre>
 
-Created by * DanhLC * - This Git and GitHub Cheat Sheet provides a quick reference to essential commands.
+Created by ***DanhLC*** - This Git and GitHub Cheat Sheet provides a quick reference to essential commands. For more advanced usage, refer to the [Git documentation](https://git-scm.com/doc)
 For more advanced usage, refer to the https://git-scm.com/doc Git documentation
