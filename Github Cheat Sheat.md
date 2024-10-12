@@ -182,7 +182,7 @@ git push origin <branch_name>
 
 <pre><code>
 git checkout -- <file>
-</code></pre
+</code></pre>
 
 ### Undo the last commit but keep changes
 
